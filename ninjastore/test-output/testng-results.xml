@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31138" started-at="2019-11-12T11:36:04Z" finished-at="2019-11-12T11:36:36Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31138" started-at="2019-11-12T11:36:04Z" finished-at="2019-11-12T11:36:36Z">
+      <class name="com.atmecs.ninja.testscripts.CartActions">
+        <test-method status="PASS" signature="setup()[pri:1, instance:com.atmecs.ninja.testscripts.CartActions@4fe3c938]" name="setup" duration-ms="14050" started-at="2019-11-12T11:36:05Z" finished-at="2019-11-12T11:36:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="clickSearchButton()[pri:2, instance:com.atmecs.ninja.testscripts.CartActions@4fe3c938]" name="clickSearchButton" duration-ms="234" started-at="2019-11-12T11:36:19Z" finished-at="2019-11-12T11:36:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSearchButton -->
+        <test-method status="PASS" signature="enterData([Ljava.lang.String;)[pri:3, instance:com.atmecs.ninja.testscripts.CartActions@4fe3c938]" name="enterData" duration-ms="8187" started-at="2019-11-12T11:36:20Z" data-provider="data" finished-at="2019-11-12T11:36:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@631e06ab]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterData -->
+        <test-method status="PASS" signature="enterData([Ljava.lang.String;)[pri:3, instance:com.atmecs.ninja.testscripts.CartActions@4fe3c938]" name="enterData" duration-ms="3283" started-at="2019-11-12T11:36:28Z" data-provider="data" finished-at="2019-11-12T11:36:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@2a3591c5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterData -->
+        <test-method status="PASS" signature="validateCartAfterAdd()[pri:4, instance:com.atmecs.ninja.testscripts.CartActions@4fe3c938]" name="validateCartAfterAdd" duration-ms="1436" started-at="2019-11-12T11:36:31Z" finished-at="2019-11-12T11:36:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCartAfterAdd -->
+        <test-method status="PASS" signature="validateAfterRemove()[pri:5, instance:com.atmecs.ninja.testscripts.CartActions@4fe3c938]" name="validateAfterRemove" duration-ms="1895" started-at="2019-11-12T11:36:33Z" finished-at="2019-11-12T11:36:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAfterRemove -->
+        <test-method status="PASS" signature="negativeTestCase()[pri:6, instance:com.atmecs.ninja.testscripts.CartActions@4fe3c938]" name="negativeTestCase" duration-ms="1217" started-at="2019-11-12T11:36:34Z" finished-at="2019-11-12T11:36:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeTestCase -->
+      </class> <!-- com.atmecs.ninja.testscripts.CartActions -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
